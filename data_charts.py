@@ -1,10 +1,11 @@
 df_2 = pd.DataFrame(
     {
-        'Year': ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        'Quarter': ["2021 Q1", "2021 Q2", "2021 Q3", "2021 Q4", "2022 Q1", "2022 Q2", "2022 Q3", "2022 Q4", "2023 Q1", "2023 Q2", "2023 Q3", "2023 Q4"],
         'Profit (in millions)': [60, 55, 48, 75, 80, 70, 90, 65, 100, 232, 240, 150],
         "Revenue (in millions)": [100, 95, 69, 150, 230, 210, 110, 95, 150, 320, 350, 205]
     }
 )
+
 
 df_3 = pd.DataFrame(
     {
