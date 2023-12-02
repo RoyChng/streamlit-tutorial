@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 st.header("This is a header", divider="rainbow")
 st.subheader("This is a subheader")
@@ -17,3 +18,6 @@ st.markdown('''
 ''')
 
 st.image("https://images.unsplash.com/photo-1535930749574-1399327ce78f?q=80&w=1936&auto=format&fit=crop")
+
+example_img = Image.open("example_img.jpg")
+st.image(example_img)
