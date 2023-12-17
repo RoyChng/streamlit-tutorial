@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header("Layouts")
 
-tab1, tab2, tab3 = st.columns(3)
+tab1, tab2, tab3 = st.tabs(["Image 1", "Image 2", "Image 3"])
 
 with tab1:
    st.image("https://images.unsplash.com/photo-1698761879886-0ad922386193?auto=format&fit=crop&q=80&w=1974")
